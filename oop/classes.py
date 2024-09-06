@@ -10,7 +10,11 @@ class Animal:
         return f"{self.name} is walking"
     
 
-cat = Animal("Bullet")
-print(cat.make_sound())
-print(cat.name)
-print(cat.walk())
+if __name__ == '__main__':
+    cat = Animal("Bullet")
+    print(cat.make_sound())
+    print(cat.name)
+    print(cat.walk())
+
+
+
